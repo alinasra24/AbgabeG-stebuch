@@ -9,6 +9,7 @@ import com.example.aufgabe3.ui.add.AddScreen
 import com.example.aufgabe3.ui.home.HomeScreen
 import com.example.aufgabe3.viewmodel.SharedViewModel
 
+
 @Composable
 fun AppNavHost(navController: NavHostController) {
     val sharedViewModel: SharedViewModel = viewModel()
@@ -19,6 +20,7 @@ fun AppNavHost(navController: NavHostController) {
             HomeScreen(
                 navController = navController,
                 sharedViewModel = sharedViewModel
+
             )
         }
 
